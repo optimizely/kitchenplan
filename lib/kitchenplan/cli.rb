@@ -249,23 +249,23 @@ module Kitchenplan
         say "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh", :blue, true
         say "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh", :blue, true
         say "hhhhhhhhhhhhhhhhhhyo+:--....-:\+shhhhhhhhhhhhhhhhh", :blue, true
-        say "hhhhhhhhhhhhhhyo:.  `.-:\///:-` `-+yhhhhhhhhhhhhh", :blue, true
+        say "hhhhhhhhhhhhhhyo:.  `.-:\///:-` `-+yhhhhhhhhhhhhhh", :blue, true
         say "hhhhhhhhhhhhs:`  `-+shhhhhhhhhhhyo:` :so/-./hhhhhh", :blue, true
-        say "hhhhhhhhhhs-  .+yyyyyyyso+//++syhhy/`.:.`ohhhhhhh", :blue, true
-        say "hhhhhhhhh/  `oyyyyyyo:`        `:shhy:  shhhhhhhh", :blue, true
-        say "hhhhhhhy-  -yyyyyys.          `:+yy/.o. /hhhhhhhh", :blue, true
-        say "hhhhhhh-  .yyyyyyo        .:oyyy/`.yho  yhhhhhhh", :blue, true
+        say "hhhhhhhhhhs-  .+yyyyyyyso+//++syhhy/`.:.`ohhhhhhhh", :blue, true
+        say "hhhhhhhhh/  `oyyyyyyo:`        `:shhy:  shhhhhhhhh", :blue, true
+        say "hhhhhhhy-  -yyyyyys.          `:+yy/.o. /hhhhhhhhh", :blue, true
+        say "hhhhhhh-  .yyyyyyo        .:oyyy/`.yho  yhhhhhhhhh", :blue, true
         say "hhhhhh/    syyyyyy`      -/syyyy/`  .yhy  /hhhhhhh", :blue, true
-        say "hhhhhy    .hyyyyyo  `-+yyyyyy/`    -yhy  :hhhhhhh", :blue, true
-        say "hhhhho    -yyyyyys.:oyyyyyyy+`    `syy+  /hhhhhhh", :blue, true
+        say "hhhhhy    .hyyyyyo  `-+yyyyyy/`    -yhy  :hhhhhhhh", :blue, true
+        say "hhhhho    -yyyyyys.:oyyyyyyy+`    `syy+  /hhhhhhhh", :blue, true
         say "hhhhh+    `yyyyyyyyyyyyyyy+`      .syys`  shhhhhhh", :blue, true
-        say "hhhhhs    /yyyyyyyyyyyy+`      -+yyys`  :hhhhhhhh", :blue, true
-        say "hhhhhh`    /yyyyyyyyyy+----:/oyyyyy/  .yhhhhhhhh", :blue, true
-        say "hhhhhho      .oyyyyyyyyyyyyyyyyyyy/`  -yhhhhhhhhh", :blue, true
-        say "hhhhhhho      ./syyyyyyyyyyyys+-    /hhhhhhhhhhh", :blue, true
-        say "hhhhhhhhs.        .-:\///:-.`      :yhhhhhhhhhhhh", :blue, true
-        say "hhhhhhhhhh+.                    `/yhhhhhhhhhhhhhh", :blue, true
-        say "hhhhhhhhhhhhs/.              ./shhhhhhhhhhhhhhhhh", :blue, true
+        say "hhhhhs    /yyyyyyyyyyyy+`      -+yyys`  :hhhhhhhhh", :blue, true
+        say "hhhhhh`    /yyyyyyyyyy+----:/oyyyyy/  .yhhhhhhhhhh", :blue, true
+        say "hhhhhho      .oyyyyyyyyyyyyyyyyyyy/`  -yhhhhhhhhhh", :blue, true
+        say "hhhhhhho      ./syyyyyyyyyyyys+-    /hhhhhhhhhhhhh", :blue, true
+        say "hhhhhhhhs.        .-:\///:-.`      :yhhhhhhhhhhhhh", :blue, true
+        say "hhhhhhhhhh+.                    `/yhhhhhhhhhhhhhhh", :blue, true
+        say "hhhhhhhhhhhhs/.              ./shhhhhhhhhhhhhhhhhh", :blue, true
         say "hhhhhhhhhhhhhhhys+/:----::/oshhhhhhhhhhhhhhhhhhhhh", :blue, true
         say "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh", :blue, true
         say "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh", :blue, true
