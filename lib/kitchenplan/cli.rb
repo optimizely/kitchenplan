@@ -34,10 +34,10 @@ module Kitchenplan
       end
     end
 
-    option :debug, :type => :boolean
-    option :recipes, :type => :array
-    option :solorb, :type => :string, :default => 'tmp/solo.rb'
-    desc 'provision [<target directory>] [--debug] [--recipes=x y z] [--solorb=path]', 'Provision your workstation with Kitchenplan'
+    option :debug, :type => :boolean, :desc => 'Debug flag'
+    option :recipes, :type => :array, :desc => 'Override run list with a list of recipes'
+    option :solorb, :type => :string, :default => 'tmp/solo.rb', :desc => 'Use a custom solo.rb file'
+    desc 'provision [<target directory>] [options]', 'Provision your workstation with Kitchenplan'
     long_desc <<-LONGDESC
     `kitchenplan provision` will use the configuration in /opt/kitchenplan (or <target directory>
     if you pass it along) to provision your workstation using Chef.
@@ -245,15 +245,31 @@ module Kitchenplan
       end
 
       def logo
-        say '  _  ___ _       _                      _             ', :yellow, true
-        say ' | |/ (_) |     | |                    | |            ', :yellow, true
-        say ' | \' / _| |_ ___| |__   ___ _ __  _ __ | | __ _ _ __  ', :yellow, true
-        say ' |  < | | __/ __| \'_ \ / _ \ \'_ \| \'_ \| |/ _` | \'_ \ ', :yellow, true
-        say ' | . \| | || (__| | | |  __/ | | | |_) | | (_| | | | |', :yellow, true
-        say ' |_|\_\_|\__\___|_| |_|\___|_| |_| .__/|_|\__,_|_| |_|', :yellow, true
-        say '                                 | |                  ', :yellow, true
-        say '                                 |_|                  ', :yellow, true
-        say '                                                      ', :yellow, true
+        say "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh", :blue, true
+        say "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh", :blue, true
+        say "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh", :blue, true
+        say "hhhhhhhhhhhhhhhhhhyo+:--....-:\+shhhhhhhhhhhhhhhhh", :blue, true
+        say "hhhhhhhhhhhhhhyo:.  `.-:\///:-` `-+yhhhhhhhhhhhhh", :blue, true
+        say "hhhhhhhhhhhhs:`  `-+shhhhhhhhhhhyo:` :so/-./hhhhhh", :blue, true
+        say "hhhhhhhhhhs-  .+yyyyyyyso+//++syhhy/`.:.`ohhhhhhh", :blue, true
+        say "hhhhhhhhh/  `oyyyyyyo:`        `:shhy:  shhhhhhhh", :blue, true
+        say "hhhhhhhy-  -yyyyyys.          `:+yy/.o. /hhhhhhhh", :blue, true
+        say "hhhhhhh-  .yyyyyyo        .:oyyy/`.yho  yhhhhhhh", :blue, true
+        say "hhhhhh/    syyyyyy`      -/syyyy/`  .yhy  /hhhhhhh", :blue, true
+        say "hhhhhy    .hyyyyyo  `-+yyyyyy/`    -yhy  :hhhhhhh", :blue, true
+        say "hhhhho    -yyyyyys.:oyyyyyyy+`    `syy+  /hhhhhhh", :blue, true
+        say "hhhhh+    `yyyyyyyyyyyyyyy+`      .syys`  shhhhhhh", :blue, true
+        say "hhhhhs    /yyyyyyyyyyyy+`      -+yyys`  :hhhhhhhh", :blue, true
+        say "hhhhhh`    /yyyyyyyyyy+----:/oyyyyy/  .yhhhhhhhh", :blue, true
+        say "hhhhhho      .oyyyyyyyyyyyyyyyyyyy/`  -yhhhhhhhhh", :blue, true
+        say "hhhhhhho      ./syyyyyyyyyyyys+-    /hhhhhhhhhhh", :blue, true
+        say "hhhhhhhhs.        .-:\///:-.`      :yhhhhhhhhhhhh", :blue, true
+        say "hhhhhhhhhh+.                    `/yhhhhhhhhhhhhhh", :blue, true
+        say "hhhhhhhhhhhhs/.              ./shhhhhhhhhhhhhhhhh", :blue, true
+        say "hhhhhhhhhhhhhhhys+/:----::/oshhhhhhhhhhhhhhhhhhhhh", :blue, true
+        say "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh", :blue, true
+        say "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh", :blue, true
+        say "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh", :blue, true
       end
 
       def print_step(description)
