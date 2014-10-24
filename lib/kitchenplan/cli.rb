@@ -237,12 +237,16 @@ module Kitchenplan
       end
 
       def dorun(command, capture=false)
-        status = run(command.chomp, :capture => capture)
-        if capture
-          return status
+        output = run(command.chomp, :capture => true)
+        
+        if $?.exitstatus != 0
+          print_warning(output)
+          print_failure("Command: \"#{command}\" returned non-zero return code")
         end
-        unless status
-          exit 1
+        if capture
+          return output
+        else
+          return $?
         end
       end
 
