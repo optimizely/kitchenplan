@@ -56,7 +56,6 @@ module Kitchenplan
       logo
       prepare_folders(targetdir)
       install_bundler(targetdir)
-      send_ping
       recipes = parse_config(targetdir)
       fetch_cookbooks(targetdir, options[:debug])
       run_chef(targetdir, (options[:recipes] ? options[:recipes] : recipes), options[:solorb], options[:debug])
@@ -111,12 +110,6 @@ module Kitchenplan
           end
           return config.config['recipes']
         end
-      end
-
-      def send_ping
-        print_step('Sending a ping to Google Analytics')
-        require 'gabba'
-        Gabba::Gabba.new('UA-46288146-1', 'github.com').event('Kitchenplan', 'Run', ENV['USER'])
       end
 
       def fetch(gitrepo, targetdir)
