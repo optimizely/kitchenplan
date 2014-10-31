@@ -248,31 +248,33 @@ module Kitchenplan
       end
 
       def logo
-        say "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh", :blue, true
-        say "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh", :blue, true
-        say "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh", :blue, true
-        say "hhhhhhhhhhhhhhhhhhyo+:--....-:\+shhhhhhhhhhhhhhhhh", :blue, true
-        say "hhhhhhhhhhhhhhyo:.  `.-:\///:-` `-+yhhhhhhhhhhhhhh", :blue, true
-        say "hhhhhhhhhhhhs:`  `-+shhhhhhhhhhhyo:` :so/-./hhhhhh", :blue, true
-        say "hhhhhhhhhhs-  .+yyyyyyyso+//++syhhy/`.:.`ohhhhhhhh", :blue, true
-        say "hhhhhhhhh/  `oyyyyyyo:`        `:shhy:  shhhhhhhhh", :blue, true
-        say "hhhhhhhy-  -yyyyyys.          `:+yy/.o. /hhhhhhhhh", :blue, true
-        say "hhhhhhh-  .yyyyyyo        .:oyyy/`.yho  yhhhhhhhhh", :blue, true
-        say "hhhhhh/    syyyyyy`      -/syyyy/`  .yhy  /hhhhhhh", :blue, true
-        say "hhhhhy    .hyyyyyo  `-+yyyyyy/`    -yhy  :hhhhhhhh", :blue, true
-        say "hhhhho    -yyyyyys.:oyyyyyyy+`    `syy+  /hhhhhhhh", :blue, true
-        say "hhhhh+    `yyyyyyyyyyyyyyy+`      .syys`  shhhhhhh", :blue, true
-        say "hhhhhs    /yyyyyyyyyyyy+`      -+yyys`  :hhhhhhhhh", :blue, true
-        say "hhhhhh`    /yyyyyyyyyy+----:/oyyyyy/  .yhhhhhhhhhh", :blue, true
-        say "hhhhhho      .oyyyyyyyyyyyyyyyyyyy/`  -yhhhhhhhhhh", :blue, true
-        say "hhhhhhho      ./syyyyyyyyyyyys+-    /hhhhhhhhhhhhh", :blue, true
-        say "hhhhhhhhs.        .-:\///:-.`      :yhhhhhhhhhhhhh", :blue, true
-        say "hhhhhhhhhh+.                    `/yhhhhhhhhhhhhhhh", :blue, true
-        say "hhhhhhhhhhhhs/.              ./shhhhhhhhhhhhhhhhhh", :blue, true
-        say "hhhhhhhhhhhhhhhys+/:----::/oshhhhhhhhhhhhhhhhhhhhh", :blue, true
-        say "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh", :blue, true
-        say "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh", :blue, true
-        say "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh", :blue, true
+        say "                              .(#########################################*                         ", :blue, true
+        say "                        .######################################################.                   ", :blue, true
+        say "                    /######################(*.                  .*(################                ", :blue, true
+        say "                /##################(.                                    *############/            ", :blue, true
+        say "            .#################,                                               .##########/        *", :blue, true
+        say "          ################,                                                       (################", :blue, true
+        say "       ###############(                                                              (###########  ", :blue, true
+        say "    .##############(                             ,(##################*                  ####*   (##", :blue, true
+        say "  *##############.                          (#############################/                   #####", :blue, true
+        say "*##############                        .######################################,            ########", :blue, true
+        say "#############                       ,##########################################.        *##########", :blue, true
+        say "###########.                      (########################################.          #####   #####", :blue, true
+        say "##########                      ######################################*            *#####.     ####", :blue, true
+        say "########,                     *###################################.             .######,        ###", :blue, true
+        say "#######*                     ################################(                *#######          /##", :blue, true
+        say "######/                     (############################,                  ###########          ##", :blue, true
+        say "######                     *########################/                    ##############          ##", :blue, true
+        say "#####                      #####################/                     ,################          ##", :blue, true
+        say "#####                      #################.                       ##################(          ##", :blue, true
+        say "####(                      ############/                         /####################          ,##", :blue, true
+        say "####(                      ########,                           ######################           ###", :blue, true
+        say "#####                      .##(                             (#######################           /###", :blue, true
+        say "#####                                                    .########################(           *####", :blue, true
+        say "#####                                                  ##########################             #####", :blue, true
+        say "######                                              *##########################             *######", :blue, true
+        say "#######                                           ##########################               ########", :blue, true
+        say "########                                       (########################(                /#########", :blue, true
       end
 
       def print_step(description)
