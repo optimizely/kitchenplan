@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "2.1.3"
+ruby "2.0.0"
 
 gem "thor",           "~> 0.18.1"
 gem "gabba",          "~> 1.0.1"
